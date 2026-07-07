@@ -13,8 +13,8 @@ orca-slicer.overrideAttrs (prev: {
   src = fetchFromGitHub {
     owner = "NanashiTheNameless";
     repo = "OrcaSlicer";
-    rev = "d44c712825c6982491730acc9c70c22529df6e20";
-    hash = "sha256-G5lsIJmpF4DxIbwnEkPhv2eFyfY8QT9PY+RPBZjnZyA=";
+    rev = "743dd774bec5175883dae8d1e098c44d9fc965cd";
+    hash = "sha256-NQ4CiEDz5eD81jYVsJnpnMeHYJqwbJREYAHzQzz9RbY=";
   };
 
   passthru =
