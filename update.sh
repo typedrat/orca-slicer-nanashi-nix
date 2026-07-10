@@ -45,5 +45,6 @@ if [[ -n "${CI:-}" ]]; then
   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
   git add package.nix flake.lock
   git commit -m "orca-slicer-nanashi: $current_rev -> $commit_sha"
-  git push
+  # Pushing is left to the workflow: a push with the default GITHUB_TOKEN
+  # won't trigger CI, so the workflow pushes with a PAT to fire FlakeHub CI.
 fi
