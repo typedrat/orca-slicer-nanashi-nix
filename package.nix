@@ -8,13 +8,13 @@
 # set are reused wholesale; only the source is swapped.
 orca-slicer.overrideAttrs (prev: {
   pname = "orca-slicer-nanashi";
-  version = "Nightly-Rolling-unstable-2026-11-01";
+  version = "Nightly-Rolling-unstable-2026-11-02";
 
   src = fetchFromGitHub {
     owner = "NanashiTheNameless";
     repo = "OrcaSlicer";
-    rev = "f8ec21578b3f77fa0c899683887835692d58856c";
-    hash = "sha256-WqgmsNhqEZjLu1hqHO7W3zI+8OMrqwzyntID5I+AeIw=";
+    rev = "90ec2f01ef2faae2d54997519aaf63c118c967f7";
+    hash = "sha256-+RqxItpivBblQDYQ+yaO3t3xa24mpKGBJWHn/m3tYWY=";
   };
 
   passthru =
